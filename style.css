@@ -235,7 +235,7 @@ nav ul .icon:hover a{
     color: var(--ligth-grey-color);
 }
 
-.intro .skill-list-container .tem span{
+.intro .skill-list-container .skill-item span{
     background-color: var(--light-green-color);
     color: var(--white);
     padding: 2rem;
@@ -1126,6 +1126,11 @@ footer .copyright{
         flex-direction: column;
         flex-wrap: wrap;
         gap: 1rem;
+    }
+
+    .contact .content .social-link-container{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
